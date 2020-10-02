@@ -1,0 +1,133 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #fba;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #49b;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #711;
+    font-size: 1.5em;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .2;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list {
+    margin-top: 5px;
+}
+
+#nav-list a {
+    color: #811;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #D5EcE7;
+}
+
+#nav-list a span {
+    font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #811;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+
+/* END HEADER */
+/* Home Page*/
+
+#menu-categories-title{
+  margin-bottom: 50px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#chicken-tile, #Beef-tile, #sushi-tile {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+    border-color: transparent;
+  overflow: hidden;
+}
+h3.menu-item-title {
+    font-size: 1.5em;
+  text-align: center;
+    font-weight:bold; 
+    background-color: #711;
+    margin: 0;
+    padding: 5px 0 10px 0;
+    
+    
+}
+.menu-item-details {
+  font-size: 1.2em;
+  font-style: italic;
+background-color:#4a9caf;
+    padding: 30px 5px 5px 5px;
+}
+#chicken-tile:hover, #Beef-tile:hover, #sushi-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+@media (max-width: 767px) {
+    /* Header */
+
+    .navbar-brand h1 {
+        /* Restaurant name */
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 6vw;
+        /* 1vw = 1% of viewport width */
+    }
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.3em;
+    }
+    #collapsable-nav a span {
+        /* Collapsed nav menu glyph */
+        font-size: .8em;
+        margin-right: 5px;
+    }
+    #menu-categories-title{
+  margin-bottom: 50px;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+    
+    
+
+    
+
+    
+
