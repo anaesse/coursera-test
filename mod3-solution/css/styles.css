@@ -86,7 +86,10 @@ h3.menu-item-title {
     font-weight:bold; 
     background-color: #711;
     margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 5px 0 10px 0;
+    border-top-left-radius: 50px;
     
     
 }
@@ -94,10 +97,14 @@ h3.menu-item-title {
   font-size: 1.2em;
   font-style: italic;
 background-color:#4a9caf;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 30px;
     padding: 30px 5px 5px 5px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 #chicken-tile:hover, #Beef-tile:hover, #sushi-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 5px 1px #000;
 }
 
 @media (max-width: 767px) {
