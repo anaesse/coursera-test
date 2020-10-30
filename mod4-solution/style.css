@@ -1,0 +1,14 @@
+body{
+    background-color: #00091b;
+    color: #ffffff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color:burlywood;
+}
