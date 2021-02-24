@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+   padding: 5px;
+}
+body{
+    
+    background-color: antiquewhite;
+}
+img{
+    width: 200px;
+    height: 205px;
+    object-fit: cover;
+    border-radius: 200px;
+    float:left;
+    margin-right: 20px;
+}
+.sectionTitle{
+    font-size: 11px;
+    color:coral;
+}
+.container{
+    width: 500px;
+    height:555px;
+    background-color: azure;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -moz-box-shadow: 5px 5px 8px lightgray;
+    -ms-box-shadow: 5px 5px 8px lightgray;
+    -webkit-box-shadow: 5px 5px 8px lightgray;
+    -o-box-shadow: 5px 5px 8px lightgray;
+    box-shadow: 5px 5px 8px lightgray;
+    
+}
+a{
+    color: coral;
+    font-size: 15px;
+}
+div.header {
+    color: white;
+    float: right;
+    width: 150px;
+    border-radius: 75px;
+    padding: 8px;
+    font-size: 30px;
+    animation-name: contact;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes contact{
+    0%{background-color:dimgray;}
+25%{background-color:palegreen;}
+50%{background-color:dodgerblue;}
+75%{background-color:peru;}
+100%{background-color:dimgray;}
+}
+footer{
+    padding-top: 50%;
+    text-align: center;
+    
+}
+@media screen and (max-width: 960px){
+	main{
+		margin-left: 0;
+		padding: 10px; 
+	}
