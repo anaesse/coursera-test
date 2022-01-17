@@ -1,69 +1,48 @@
-*{
-    box-sizing: border-box;
-    margin: 10px;
-   padding: 5px;
+ @media(min-width:468px){
+.container-1{
+    display: flex;
 }
-body{
-    
-    background-color: antiquewhite;
+.footer{
+    display: flex;
+    align-items:center;
+
 }
+}
+main{
+    background-color: #59a99f;
+}
+.container-1 div{
+    border: 1px #a1cbbf solid;
+    padding: 3px;
+
+}
+.image{
+    align-items: center;
+    background-color: #a1cbbf;
+}
+
+.footer div{
+    margin-top: 20%;
+}
+
 img{
-    width: 200px;
-    height: 205px;
-    object-fit: cover;
-    border-radius: 200px;
-    float:left;
-    margin-right: 20px;
+    width: 250px;
+    height: 340px;
+    border-radius: 50%
 }
-.sectionTitle{
-    font-size: 11px;
-    color:coral;
+.p1{
+    flex: 3; 
+    background-color: #a1cbbf;
 }
-.container{
-    width: 500px;
-    height:555px;
-    background-color: azure;
-    border: 2px solid white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    -moz-box-shadow: 5px 5px 8px lightgray;
-    -ms-box-shadow: 5px 5px 8px lightgray;
-    -webkit-box-shadow: 5px 5px 8px lightgray;
-    -o-box-shadow: 5px 5px 8px lightgray;
-    box-shadow: 5px 5px 8px lightgray;
-    
+.qualification{
+    flex: 1;
+    background-color:#d8c6ad;
 }
-a{
-    color: coral;
-    font-size: 15px;
+.contact{
+    flex: 2;
+    text-align: end;
 }
-div.header {
-    color: white;
-    float: right;
-    width: 150px;
-    border-radius: 75px;
-    padding: 8px;
-    font-size: 30px;
-    animation-name: contact;
-    animation-duration:3s;
-    animation-iteration-count: infinite;
+.copy{
+flex: 2;
+    text-align: start;
 }
-@keyframes contact{
-    0%{background-color:dimgray;}
-25%{background-color:palegreen;}
-50%{background-color:dodgerblue;}
-75%{background-color:peru;}
-100%{background-color:dimgray;}
-}
-footer{
-    padding-top: 50%;
-    text-align: center;
-    
-}
-@media screen and (max-width: 960px){
-	main{
-		margin-left: 0;
-		padding: 10px; 
-	}
